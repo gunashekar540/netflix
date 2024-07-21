@@ -8,4 +8,8 @@ body{
   background-color: black;
   color: white;
   font-family: 'poppins';
+  overflow: scroll;
+}
+body::-webkit-scrollbar{
+  display: none;
 }
